@@ -1,16 +1,59 @@
-# React + Vite
+# Gunjan Sharma Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website showcasing my experience in Generative AI, Full Stack Development, and AI-powered applications.
 
-Currently, two official plugins are available:
+## 🚀 Live Portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://YOUR-VERCEL-URL.vercel.app
 
-## React Compiler
+## 👨‍💻 About Me
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+B.Tech Computer Science (AIML) student with experience in Generative AI, Full Stack Development, and AI-powered applications.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Vite
+- JavaScript
+- HTML
+- CSS
+- Python
+- FastAPI
+- LangChain
+- LangGraph
+- RAG
+- MySQL
+
+## 📂 Featured Projects
+
+### Hybrid Firewall System
+Dual-layer firewall combining network-level packet inspection and prompt-level filtering.
+
+### QR Code Generator
+Generate and download QR codes instantly from text or URLs.
+
+### Movie Recommendation System
+Personalized recommendation engine using Machine Learning.
+
+### SkillSync
+AI-powered personalized learning planner.
+
+## 🔗 Links
+
+GitHub:
+https://github.com/Gunjansharma003
+
+LinkedIn:
+https://linkedin.com/in/gunjan-sharma-284589281
+
+## 🚀 Live Portfolio
+
+https://gunjan-portfolio-one.vercel.app/
+
+## 📄 Resume
+
+Resume available on portfolio website.
+
+## 📬 Contact
+
+Email: gunjansharma9971@gmail.com
