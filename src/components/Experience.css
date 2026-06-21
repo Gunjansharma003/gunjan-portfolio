@@ -1,0 +1,107 @@
+/* ===== Experience Section ===== */
+
+.experience__timeline {
+  position: relative;
+  padding-left: 40px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.experience__line {
+  position: absolute;
+  left: 15px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--gradient-main);
+  border-radius: 2px;
+}
+
+.experience__item {
+  position: relative;
+  margin-bottom: 32px;
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+.experience__dot {
+  position: absolute;
+  left: -33px;
+  top: 8px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--gradient-main);
+  box-shadow: 0 0 20px rgba(124, 58, 237, 0.4);
+  z-index: 1;
+}
+
+.experience__dot::after {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  background: transparent;
+  border: 2px solid rgba(124, 58, 237, 0.2);
+  animation: pulse 2.5s ease-in-out infinite;
+}
+
+.experience__card {
+  padding: 28px 32px;
+}
+
+.experience__role {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-primary);
+  font-family: 'Space Grotesk', sans-serif;
+  margin-bottom: 4px;
+}
+
+.experience__company {
+  font-size: 17px;
+  color: var(--accent-purple);
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.experience__date {
+  display: inline-block;
+  background: rgba(124, 58, 237, 0.1);
+  border: 1px solid rgba(124, 58, 237, 0.2);
+  color: var(--accent-purple);
+  padding: 4px 12px;
+  border-radius: 50px;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.experience__description {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .experience__timeline {
+    padding-left: 30px;
+  }
+
+  .experience__dot {
+    left: -23px;
+    width: 12px;
+    height: 12px;
+  }
+
+  .experience__line {
+    left: 12px;
+  }
+
+  .experience__card {
+    padding: 20px 22px;
+  }
+
+  .experience__role {
+    font-size: 18px;
+  }
+}
